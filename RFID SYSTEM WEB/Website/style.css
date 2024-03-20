@@ -1,0 +1,55 @@
+.heading h3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    background: #254970;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font: bold;
+}
+@media only screen and (max-width: 600px) {
+    .heading h1{
+      font-size: 20px;
+  }
+}
+.heading{
+  position: relative;
+  height: 35px;
+}
+.heading i{
+  position: absolute;
+  left: 90%;
+  top: 14%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.live{
+    border: 1px solid black;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+.live img{
+    float: left;
+}
+.parkings{
+    border: 1px solid black;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+.bookContainer{
+    border: 1px solid black;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.show{
+    display: block;
+}
